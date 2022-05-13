@@ -22,3 +22,12 @@
 
 ***
 
+![About](assets/icons/about.svg) **ABOUT ME**
+
+Hello! My name is Alexey. It’s one of the tasks in my programming school.
+
+I’m learning javascript. I love programming and solving
+algorithmic problems. I’m also learning CSS and want to become a great frontend developer.
+And maybe not only frontend!
+
+I really hope to successfully complete the courses and find a job.
