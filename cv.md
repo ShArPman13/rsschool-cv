@@ -35,3 +35,7 @@ I really hope to successfully complete the courses and find a job.
 ![Education](assets/icons/edu.svg) **EDUCATION**  
 
 **Voronezh State University (VSU) &#8226; Faculty of Computer Science** Bachelor 2009
+
+**BlackMagicdesign** courses  
+   * DaVinci Resolve 16: Fusion Certified End User 2020
+   * Introduction to DaVinci Resolve 17 2022
