@@ -9,3 +9,8 @@
 * ![mail](assets/icons/mail.svg/) sharpman2001@gmail.com
 * ![telegramm](assets/icons/gram.svg/) @sharpman13
 
+**LANGUAGE**
+
+* ENGLISH &#9899;&#9899;&#9899;&#9898;&#9898;
+* POLISH &nbsp;&nbsp;&#9899;&#9898;&#9898;&#9898;&#9898;
+* RUSSIAN &#9899;&#9899;&#9899;&#9899;&#9899;
