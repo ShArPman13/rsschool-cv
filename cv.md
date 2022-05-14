@@ -56,10 +56,17 @@ I really hope to successfully complete the courses and find a job.
    - *Problem solving*
    - *Quick learning skills*
    - *Willingness to learn*
-   ***
+   ***  
    **CODE EXAMPLES**
 ```js
 function multiply(a, b){  
   return a * b
 }
 ```
+  **PROJECTS**  
+  * [my CV (MD)](https://sharpman13.github.io/rsschool-cv/cv)
+ ***
+ 2021 by [ShArPman13](https://github.com/ShArPman13)
+
+
+[![RSS logo](assets/icons/irs.svg)](https://app.rs.school/)
