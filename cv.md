@@ -65,7 +65,7 @@ function multiply(a, b){
 ```
   **PROJECTS**  
   * [my CV (MD)](https://sharpman13.github.io/rsschool-cv/cv)
- ***
+ ---
  2021 by [ShArPman13](https://github.com/ShArPman13)
 
 
