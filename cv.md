@@ -29,6 +29,7 @@ Hello! My name is Alexey. It’s one of the tasks in my programming school.
 I’m learning javascript. I love programming and solving
 algorithmic problems. I’m also learning CSS and want to become a great frontend developer.
 And maybe not only frontend!
+I always strive to learn and learn something new for myself . If I encounter difficulties, I find any option to solve them.
 
 I really hope to successfully complete the courses and find a job.
 
@@ -39,3 +40,21 @@ I really hope to successfully complete the courses and find a job.
 **BlackMagicdesign** courses  
    * DaVinci Resolve 16: Fusion Certified End User 2020
    * Introduction to DaVinci Resolve 17 2022
+
+![SKILLS](assets/icons/skills.svg) **SKILLS** 
+
+- HARD
+   - *CSS*
+   - *HTML*
+   - *Git, GitHub*
+   - *CorelDraw*
+   - *DaVince Resolve*  
+- SOFT
+   - *Critical thinking*
+   - *Communicative*
+   - *Teamwork*
+   - *Problem solving*
+   - *Quick learning skills*
+   - *Willingness to learn*
+   ***
+   
