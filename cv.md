@@ -48,7 +48,7 @@ I really hope to successfully complete the courses and find a job.
    - *HTML*
    - *Git, GitHub*
    - *CorelDraw*
-   - *DaVince Resolve*  
+   - *DaVinci Resolve*  
 - SOFT
    - *Critical thinking*
    - *Communicative*
@@ -57,4 +57,9 @@ I really hope to successfully complete the courses and find a job.
    - *Quick learning skills*
    - *Willingness to learn*
    ***
-   
+   **CODE EXAMPLES**
+```js
+   function multiply(a, b){  
+  return a * b
+}
+```
