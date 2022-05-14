@@ -1,7 +1,9 @@
 ![My photo](assets/img/photo.jpg/)
 # Alexey Yakushev
 #### Front-end Developer
-***
+
+---
+
 **CONTACT**
 
 * ![mappic](assets/icons/map.svg/) Warszawa, Poland
@@ -20,7 +22,7 @@
 &#8195;Tennis &#8195;Workout  
 &#8195;Editing&#8195;Music
 
-***
+---
 
 ![About](assets/icons/about.svg) **ABOUT ME**
 
@@ -56,7 +58,9 @@ I really hope to successfully complete the courses and find a job.
    - *Problem solving*
    - *Quick learning skills*
    - *Willingness to learn*
-   ***  
+
+   --- 
+
    **CODE EXAMPLES**
 ```js
 function multiply(a, b){  
@@ -65,8 +69,9 @@ function multiply(a, b){
 ```
   **PROJECTS**  
   * [my CV (MD)](https://sharpman13.github.io/rsschool-cv/cv)
- ---
- 2021 by [ShArPman13](https://github.com/ShArPman13)
 
+ ---
+
+ 2021 by [ShArPman13](https://github.com/ShArPman13)
 
 [![RSS logo](assets/icons/irs.svg)](https://app.rs.school/)
