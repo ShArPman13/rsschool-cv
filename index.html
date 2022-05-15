@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
     <header class = "header">
         <div class = "container">
             <nav class="nav">
@@ -28,24 +29,59 @@
     <main class = "main">
         <aside class ="container-aside">
                 <section class="section section-awhite" id="profile">
-                    <div class="photo-c"><img class="photo" src="assets/img/photo.jpg" alt="myphoto"></div>
+                    <div class="photo-cirkle"><img class="photo" src="assets/img/photo.jpg" alt="myphoto"></div>
                     <h1 class="section-title-name">Alexey<br>Yakushev</h1>
-                    <p>Front-End Developer</p>
+                    <p class="profession">Front-End Developer</p>
                 </section>
             <div class="container-aside-pink">
-                <section class="section" id="contacts">
+                <section class="section-aside" id="contacts">
                     <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-ul">
+                        <li class="contacts">
+                            <img src="assets/icons/map.svg" alt="map" width="12px"><p>Warszawa, Poland</p>
+                        </li>
+                        <li class="contacts">
+                            <img src="assets/icons/tel.svg" alt="tel" width="12px"><p>+48 572 112 012</p>
+                        </li>
+                        <li class="contacts">
+                            <img src="assets/icons/mail.svg" alt="mail" width="12px"><p>sharpman2001@gmail.com</p>
+                        </li>
+                        <li class="contacts">
+                            <img src="assets/icons/gram.svg" alt="gram" width="12px"><p>@sharpman13</p>
+                        </li>
+                        <li class="contacts">
+                            <img src="assets/icons/dis.svg" alt="discord" width="12px"><p>sharp#3523</p>
+                        </li>
+                    </ul>
                 </section>
-                <section class="section" id="hobbies">
+                <section class="section-aside" id="language">
+                    <h2 class="section-title">Language</h2>
+                        <ul class="lang-list">
+                            <li class="lang-item">English</li>
+                            <li class="lang-item">Polish</li>
+                            <li class="lang-item">Russian</li>
+                        </ul>
+                </section>
+                <section class="section-aside" id="hobbies">
                     <h2 class="section-title">Hobbies</h2>
+                        <div class="hobbies">
+                            <div class="hobby-left">
+                                <p>Tennis</p>
+                                <p>Editing</p>
+                            </div> 
+                            <div class="hobby-right">
+                                <p>Workout</p>
+                                <p>Music</p>
+                            </div>  
+                        </div>
                 </section>
             </div>
         </aside>
         <div class = "container main-container">
-            <section class="section" id="ABOUT">
+            <section class="section" id="about">
                 <div class="section-title">
                     <img src="assets/icons/about.svg" alt="about" width="32px"><h2>About me</h2>
-                </div>
+                    </div>
                 <p>
                     Hello! My name is Alexey. It’s one of the tasks in my programming school.<br>
                     I’m learning javascript. I love programming and solving algorithmic problems.<br>
@@ -64,6 +100,7 @@
                     <li><strong>Voronezh State University (VSU)</strong><br>
                         Faculty of Computer Science <strong>Bachelor 2009</strong>
                     </li>
+                    <br>
                     <li><strong>BlackMagicdesign courses</strong><br>
                         DaVinci Resolve 16: Fusion Certified End User 2020<br>
                         Introduction to DaVinci Resolve 17 2022
@@ -74,20 +111,46 @@
                 <div class="section-title">
                     <img src="assets/icons/skills.svg" alt="skills" width="32px"><h2>Skills</h2>    
                 </div>
-            </section>
-            <section class="section" id="language">
-                <h2 class="section-title">Language</h2>
+                <div class="skills-both">
+                <div class="skills-hard">
+                <p><strong>HARD</strong></p>
+                <ul>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Git, Github</li>
+                    <li>Corel Draw</li>
+                    <li>DaVince Resolve</li>
+                </ul> 
+                </div>
+                <div class="skills-soft">
+                <p><strong>SOFT</strong></p>
+                <ul>
+                    <li>Critical thinking</li>
+                    <li>Communicative</li>
+                    <li>Teamwork</li>
+                    <li>Problem solving</li>
+                    <li>Quick learning skills</li>
+                    <li>Willingness to learn</li>
+                </ul>
+                </div>
+                </div>
+                </section>
             </section>
             <section class="section" id="code">
-                <h2 class="section-title">Code example</h2>
+                <div class="section-title">
+                    <img src="assets/icons/skills.svg" alt="skills" width="32px"><h2>Code examples</h2>    
+                </div>
             </section>
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
+            <section class="section" id="code">
+                <div class="section-title">
+                    <img src="assets/icons/skills.svg" alt="skills" width="32px"><h2>Projects</h2>    
+                </div>
             </section>
         </div>
     </main>
     <footer class = "footer">
         <div class = "container"></div>
     </footer>
+</div>   
 </body>
 </html>
