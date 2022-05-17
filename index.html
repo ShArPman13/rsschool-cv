@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/favicon.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,43 +27,68 @@
         </div>
     </header>
     <main class = "main">
-        <aside class ="container-aside">
+        <div class ="container-aside">
                 <section class="section section-awhite" id="profile">
                     <div class="photo-cirkle"><img class="photo" src="assets/img/photo.jpg" alt="myphoto"></div>
                     <h1 class="section-title-name">Alexey<br>Yakushev</h1>
                     <p class="profession">Front-End Developer</p>
                 </section>
             <div class="container-aside-pink">
-                <section class="section-aside" id="contacts">
-                    <h2 class="section-title">Contacts</h2>
+                <section class="section-aside-contacts" id="contacts">
+                    <h2 class="section-title section-title-pink top">Contacts</h2>
                     <ul class="contacts-ul">
                         <li class="contacts">
-                            <img src="assets/icons/map.svg" alt="map" width="12px"><p>Warszawa, Poland</p>
+                            <img src="assets/icons/map.svg" alt="map" width="12"><p>Warszawa, Poland</p>
                         </li>
                         <li class="contacts">
-                            <img src="assets/icons/tel.svg" alt="tel" width="12px"><p>+48 572 112 012</p>
+                            <img src="assets/icons/tel.svg" alt="tel" width="12"><p>+48 572 112 012</p>
                         </li>
                         <li class="contacts">
-                            <img src="assets/icons/mail.svg" alt="mail" width="12px"><p>sharpman2001@gmail.com</p>
+                            <img src="assets/icons/mail.svg" alt="mail" width="12"><p>sharpman2001@gmail.com</p>
                         </li>
                         <li class="contacts">
-                            <img src="assets/icons/gram.svg" alt="gram" width="12px"><p>@sharpman13</p>
+                            <img src="assets/icons/gram.svg" alt="gram" width="12"><p>@sharpman13</p>
                         </li>
                         <li class="contacts">
-                            <img src="assets/icons/dis.svg" alt="discord" width="12px"><p>sharp#3523</p>
+                            <img src="assets/icons/dis.svg" alt="discord" width="12"><p>sharp#3523</p>
                         </li>
                     </ul>
                 </section>
-                <section class="section-aside" id="language">
-                    <h2 class="section-title">Language</h2>
-                        <ul class="lang-list">
-                            <li class="lang-item">English</li>
-                            <li class="lang-item">Polish</li>
-                            <li class="lang-item">Russian</li>
-                        </ul>
+                <section class="section-aside-lang" id="language">
+                    <h2 class="section-title section-title-pink">Language</h2>
+                        <div class="lang-list">
+                            <div class="lang-item">
+                                <p>English</p>
+                                <p>Polish</p>
+                                <p>Russian</p>
+                            </div>
+                            <div class="cirkles">
+                            <div class="circle-eng">
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-white"></span>
+                                <span class="lang-cirkle-white"></span>
+                            </div>
+                            <div class="circle-pol">
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-white"></span>
+                                <span class="lang-cirkle-white"></span>
+                                <span class="lang-cirkle-white"></span>
+                                <span class="lang-cirkle-white"></span>
+                            </div>    
+                            <div class="cirkle-rus">
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-black"></span>
+                                <span class="lang-cirkle-black"></span>
+                            </div>
+                            </div>
+                        </div>
                 </section>
-                <section class="section-aside" id="hobbies">
-                    <h2 class="section-title">Hobbies</h2>
+                <section class="section-aside-hobbies" id="hobbies">
+                    <h2 class="section-title section-title-pink">Hobbies</h2>
                         <div class="hobbies">
                             <div class="hobby-left">
                                 <p>Tennis</p>
@@ -76,11 +101,11 @@
                         </div>
                 </section>
             </div>
-        </aside>
+        </div>
         <div class = "container main-container">
             <section class="section" id="about">
                 <div class="section-title">
-                    <img src="assets/icons/about.svg" alt="about" width="32px"><h2>About me</h2>
+                    <img src="assets/icons/about.svg" alt="about" width="32"><h2 class="title-on-white">About me</h2>
                     </div>
                 <p>
                     Hello! My name is Alexey. It’s one of the tasks in my programming school.<br>
@@ -94,14 +119,16 @@
             </section>
             <section class="section" id="education">
                 <div class="section-title">
-                    <img src="assets/icons/edu.svg" alt="education" width="32px"><h2>Education</h2>
+                    <img src="assets/icons/edu.svg" alt="education" width="32"><h2 class="title-on-white">Education</h2>
                 </div>
-                <ul>
-                    <li><strong>Voronezh State University (VSU)</strong><br>
+                <ul class="list-education">
+                    <li class="edu-item"><strong>Voronezh State University (VSU)</strong><br>
                         Faculty of Computer Science <strong>Bachelor 2009</strong>
                     </li>
-                    <br>
-                    <li><strong>BlackMagicdesign courses</strong><br>
+                    <li class="edu-item"><strong>Rolling Scopes School</strong><br>
+                        JS/Frontend Developer <i>in progress</i>
+                    </li>
+                    <li class="edu-item"><strong>BlackMagicdesign courses</strong><br>
                         DaVinci Resolve 16: Fusion Certified End User 2020<br>
                         Introduction to DaVinci Resolve 17 2022
                     </li>    
@@ -109,7 +136,7 @@
             </section>
             <section class="section" id="skills">
                 <div class="section-title">
-                    <img src="assets/icons/skills.svg" alt="skills" width="32px"><h2>Skills</h2>    
+                    <img src="assets/icons/skills.svg" alt="skills" width="32"><h2 class="title-on-white">Skills</h2>    
                 </div>
                 <div class="skills-both">
                 <div class="skills-hard">
@@ -119,7 +146,7 @@
                     <li>HTML</li>
                     <li>Git, Github</li>
                     <li>Corel Draw</li>
-                    <li>DaVince Resolve</li>
+                    <li>DaVinci Resolve</li>
                 </ul> 
                 </div>
                 <div class="skills-soft">
@@ -134,22 +161,36 @@
                 </ul>
                 </div>
                 </div>
-                </section>
             </section>
             <section class="section" id="code">
                 <div class="section-title">
-                    <img src="assets/icons/skills.svg" alt="skills" width="32px"><h2>Code examples</h2>    
+                    <img src="assets/icons/skills.svg" alt="skills" width="32"><h2 class="title-on-white">Code examples</h2>    
+                </div>
+                <div class="code">
+                    <pre class="javascript" style="font-family:monospace;">
+<span style="color: #000066; font-weight: bold;">function</span> multiply<span style="color: #009900;">&#40;</span>a<span style="color: #339933;">,</span> b<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>  
+<span style="color: #000066; font-weight: bold;">return</span> a <span style="color: #339933;">*</span> b
+<span style="color: #009900;">&#125;</span>
+                    </pre>
                 </div>
             </section>
-            <section class="section" id="code">
+            <section class="section" id="projects">
                 <div class="section-title">
-                    <img src="assets/icons/skills.svg" alt="skills" width="32px"><h2>Projects</h2>    
+                    <img src="assets/icons/skills.svg" alt="skills" width="32"><h2 class="title-on-white">Projects</h2>    
                 </div>
+                    <div class="projects">
+                        <strong>CV Project</strong><a href="https://sharpman13.github.io/rsschool-cv/">CV</a>
+                    </div>
             </section>
         </div>
     </main>
     <footer class = "footer">
-        <div class = "container"></div>
+            <div class="copyright">
+                <span>&#169;</span>
+                <span>2022</span>
+            </div>
+            <a class="s13" href="https://github.com/ShArPman13">ShArPman13</a>
+            <a class="rss" href="https://rs.school/js/"><Img src="assets/icons/irs.svg" alt="rsslogo" Height="30"> </a>
     </footer>
 </div>   
 </body>
