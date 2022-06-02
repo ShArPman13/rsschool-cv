@@ -1,12 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="icon" href="assets/favicon.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container-aside">
+                <section class="section section-awhite" id="profile">
+                    <div class="photo-cirkle"><img class="photo" src="assets/img/photo.jpg" alt="myphoto"></div>
+                    <h1 class="section-title-name">Alexey<br>Yakushev</h1>
+                    <p class="profession">Front-End Developer</p>
+                </section>
+                <div class="container-aside-pink">
+                    <section class="section-aside-contacts" id="contacts">
+                        <h2 class="section-title section-title-pink top">Contacts</h2>
+                        <ul class="contacts-ul">
+                            <li class="contacts">
+                                <img src="assets/icons/map.svg" alt="map" width="12">
+                                <p>Warszawa, Poland</p>
+                            </li>
+                            <li class="contacts">
+                                <img src="assets/icons/tel.svg" alt="tel" width="12">
+                                <p>+48 572 112 012</p>
+                            </li>
+                            <li class="contacts">
+                                <img src="assets/icons/mail.svg" alt="mail" width="12">
+                                <p>sharpman2001@gmail.com</p>
+                            </li>
+                            <li class="contacts">
+                                <img src="assets/icons/gram.svg" alt="gram" width="12">
+                                <p>@sharpman13</p>
+                            </li>
+                            <li class="contacts">
+                                <img src="assets/icons/dis.svg" alt="discord" width="12">
+                                <p>sharp#3523</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section-aside-lang" id="language">
+                        <h2 class="section-title section-title-pink">Language</h2>
+                        <div class="lang-list">
+                            <div class="lang-item">
+                                <p>English</p>
+                                <p>Polish</p>
+                                <p>Russian</p>
+                            </div>
+                            <div class="cirkles">
+                                <div class="circle-eng">
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-white"></span>
+                                    <span class="lang-cirkle-white"></span>
+                                </div>
+                                <div class="circle-pol">
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-white"></span>
+                                    <span class="lang-cirkle-white"></span>
+                                    <span class="lang-cirkle-white"></span>
+                                    <span class="lang-cirkle-white"></span>
+                                </div>
+                                <div class="cirkle-rus">
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-black"></span>
+                                    <span class="lang-cirkle-black"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section-aside-hobbies" id="hobbies">
+                        <h2 class="section-title section-title-pink">Hobbies</h2>
+                        <div class="hobbies">
+                            <div class="hobby-left">
+                                <p>Tennis</p>
+                                <p>Editing</p>
+                            </div>
+                            <div class="hobby-right">
+                                <p>Workout</p>
+                                <p>Music</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container main-container">
+                <section class="section" id="about">
+                    <div class="section-title">
+                        <img src="assets/icons/about.svg" alt="about" width="32">
+                        <h2 class="title-on-white">About me</h2>
+                    </div>
+                    <p>
+                        Hello! My name is Alexey. It’s one of the tasks in my programming school.<br>
+                        I’m learning javascript. I love programming and solving algorithmic problems.<br>
+                        I’m also learning CSS and want to become a great frontend developer.<br>
+                        And maybe not only frontend!<br>
+                        I always strive to learn and learn something new for myself.<br>
+                        If I encounter difficulties, I find any option to solve them.<br>
+                        I really hope to successfully complete the courses and find a job.
+                    </p>
+                </section>
+                <section class="section" id="education">
+                    <div class="section-title">
+                        <img src="assets/icons/edu.svg" alt="education" width="32">
+                        <h2 class="title-on-white">Education</h2>
+                    </div>
+                    <ul class="list-education">
+                        <li class="edu-item"><strong>Voronezh State University (VSU)</strong><br>
+                            Faculty of Computer Science <strong>Bachelor 2009</strong>
+                        </li>
+                        <li class="edu-item"><strong>Rolling Scopes School</strong><br>
+                            JS/Frontend Developer <i>in progress</i>
+                        </li>
+                        <li class="edu-item"><strong>BlackMagicdesign courses</strong><br>
+                            DaVinci Resolve 16: Fusion Certified End User 2020<br>
+                            Introduction to DaVinci Resolve 17 2022
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="skills">
+                    <div class="section-title">
+                        <img src="assets/icons/skills.svg" alt="skills" width="32">
+                        <h2 class="title-on-white">Skills</h2>
+                    </div>
+                    <div class="skills-both">
+                        <div class="skills-hard">
+                            <p><strong>HARD</strong></p>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>Git, Github</li>
+                                <li>Corel Draw</li>
+                                <li>DaVinci Resolve</li>
+                            </ul>
+                        </div>
+                        <div class="skills-soft">
+                            <p><strong>SOFT</strong></p>
+                            <ul>
+                                <li>Critical thinking</li>
+                                <li>Communicative</li>
+                                <li>Teamwork</li>
+                                <li>Problem solving</li>
+                                <li>Quick learning skills</li>
+                                <li>Willingness to learn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="section" id="code">
+                    <div class="section-title">
+                        <img src="assets/icons/skills.svg" alt="skills" width="32">
+                        <h2 class="title-on-white">Code examples</h2>
+                    </div>
+                    <div class="code">
+
+<pre class="javascript" style="font-family:monospace;"><span style="color: #000066; font-weight: bold;">function</span> century<span style="color: #009900;">&#40;</span>year<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+  let res<span style="color: #339933;">;</span>
+<span style="color: #000066; font-weight: bold;">  if</span> <span style="color: #009900;">&#40;</span>year <span style="color: #339933;">%</span> <span style="color: #CC0000;">100</span> <span style="color: #339933;">===</span> <span style="color: #CC0000;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    res <span style="color: #339933;">=</span> year <span style="color: #339933;">/</span> <span style="color: #CC0000;">100</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">  &#125;</span> <span style="color: #000066; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+    res <span style="color: #339933;">=</span> <span style="">Math</span>.<span style="color: #660066;">floor</span><span style="color: #009900;">&#40;</span>year <span style="color: #339933;">/</span> <span style="color: #CC0000;">100</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span> <span style="color: #CC0000;">1</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">  &#125;</span>
+  console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">typeof</span> res<span style="color: #009900;">&#41;;</span>
+<span style="color: #000066; font-weight: bold;">  return</span> res<span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span><span style="color: #339933;">;</span>
+</pre>
+                    </div>
+                </section>
+                <section class="section" id="projects">
+                    <div class="section-title">
+                        <img src="assets/icons/skills.svg" alt="skills" width="32">
+                        <h2 class="title-on-white">Projects</h2>
+                    </div>
+                    <div class="projects">
+                        <strong>CV Project</strong><a href="https://sharpman13.github.io/rsschool-cv/">CV</a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="copyright">
+                <span>&#169;</span>
+                <span>2022</span>
+            </div>
+            <a class="s13" href="https://github.com/ShArPman13">ShArPman13</a>
+            <a class="rss" href="https://rs.school/js/"><Img src="assets/icons/irs.svg" alt="rsslogo" Height="30"> </a>
+        </footer>
+    </div>
 </body>
+
 </html>
