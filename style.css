@@ -3,11 +3,13 @@
     src: url("assets/fonts/JetBrainsMono-Regular.ttf");
     font-weight: 300;
 }
+
 @font-face {
     font-family: 'JetbrainsMono';
     src: url("assets/fonts/JetBrainsMono-Thin.ttf");
     font-weight: 100;
 }
+
 * {
     box-sizing: border-box;
     font-size: inherit;
@@ -15,32 +17,40 @@
     margin: 0;
     list-style: none;
 }
+
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
+
 body {
     font-family: 'JetbrainsMono';
     min-height: 100vh;
-    margin: 0; padding: 0;
-    background-color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-weight: 100;
 }
+
 .header {
     background-color: rgb(250, 218, 221);
 }
+
 .container {
     /* max-width: 1440px; */
     margin: 0 30px;
 }
-.nav-list { /*настраиваем top меню*/
+
+.nav-list {
+    /*настраиваем top меню*/
     gap: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
 .nav-link {
     line-height: 50px;
     text-decoration: none;
@@ -49,31 +59,43 @@ body {
     transition: .5s;
     position: relative;
 }
+
 .nav-item {
-    width: 50%;
+    width: 5git 0%;
 }
-.nav-link:hover { /*смена цвета при наведенеии*/
+
+.nav-link:hover {
+    /*смена цвета при наведенеии*/
     color: #ffffff;
 }
-.nav-link:hover:before { /*подчеркивание при наведении*/
+
+.nav-link:hover:before {
+    /*подчеркивание при наведении*/
     transform: scaleX(1);
-    transform-origin:center;
+    transform-origin: center;
     transition: transform 0.5s;
 }
-.nav-link:before { /*подчеркивание при наведении и убрать при отводе hover*/
+
+.nav-link:before {
+    /*подчеркивание при наведении и убрать при отводе hover*/
     content: '';
-    width: 100%; height: 2px;
+    width: 100%;
+    height: 2px;
     background-color: white;
     position: absolute;
-    left: 0; bottom: -7px;
+    left: 0;
+    bottom: -7px;
     transform: scaleX(0);
     transition: .3s;
 }
-.photo { /* my foto */
+
+.photo {
+    /* my foto */
     width: 300px;
-    margin: -15px -40px; 
+    margin: -15px -40px;
     /* filter: grayscale(100%);  */
 }
+
 .photo-cirkle {
     width: 170px;
     height: 170px;
@@ -82,6 +104,7 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 15px rgb(179, 165, 165);
 }
+
 .section-title-name {
     font-size: 30px;
     font-weight: 100;
@@ -91,6 +114,7 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+
 .section-title {
     font-size: 20px;
     font-weight: 700;
@@ -102,21 +126,25 @@ body {
     align-items: center;
     padding: 20px 0 20px;
 }
+
 .section-aside-contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .section-aside-lang {
     display: flex;
     flex-direction: column;
     align-items: left;
 }
+
 .section-aside-hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .container-aside {
     width: 25%;
     min-width: 300px;
@@ -125,12 +153,15 @@ body {
     flex-direction: column;
     background-color: rgb(250, 218, 221);
 }
+
 main {
-    display: flex; 
+    display: flex;
 }
+
 .section {
     width: 100%;
 }
+
 .section-awhite {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -139,6 +170,7 @@ main {
     align-items: center;
     padding-bottom: 30px;
 }
+
 .container-aside-pink {
     background-color: rgb(250, 218, 221);
     display: flex;
@@ -147,6 +179,7 @@ main {
     align-items: center;
     padding-bottom: 20px;
 }
+
 .lang-list {
     display: flex;
     flex-direction: column;
@@ -157,78 +190,98 @@ main {
     font-weight: 300;
     list-style: none;
 }
+
 .profession {
     padding: 0 0 20px;
 }
+
 .contacts-ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-top: -20px;
     margin-bottom: 10px;
-    
+
 }
+
 .contacts {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 15px;
 }
+
 .skills-hard {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .skills-soft {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .skills-both {
     display: flex;
     gap: 100px;
 }
-.wrapper { /* делаем максимальную ширину обертки с контентом*/
+
+.wrapper {
+    /* делаем максимальную ширину обертки с контентом*/
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .hobbies {
-    display:flex;
+    display: flex;
     gap: 60px;
     padding: 5px 0;
 }
+
 .hobby-left {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .hobby-right {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 strong {
     font-weight: 400;
 }
+
 .projects {
     display: flex;
     padding-bottom: 10px;
     gap: 10px;
 }
+
 a {
     text-decoration: none;
 }
+
 .projects:before {
-    content: "\00BB "; /* Добавляем перед элементом списка символ в юникоде */
+    content: "\00BB ";
+    /* Добавляем перед элементом списка символ в юникоде */
 }
+
 .edu-item:before {
     content: "\00BB  ";
 }
+
 .title-on-white {
     display: block;
     position: relative;
 }
-.title-on-white:after {/* добавляем линию подчеркивания для названия секций справа*/
+
+.title-on-white:after {
+    /* добавляем линию подчеркивания для названия секций справа*/
     content: "";
     display: block;
     position: absolute;
@@ -241,17 +294,21 @@ a {
     border-radius: 4px;
     background: rgb(228, 219, 219);
 }
-.section-title-pink {/*делаем серые прямоугольники для названия pink секций*/
+
+.section-title-pink {
+    /*делаем серые прямоугольники для названия pink секций*/
     display: block;
     position: relative;
     color: rgb(255, 255, 255);
     z-index: 1;
     text-align: center;
 }
+
 .section-title-pink.top {
     bottom: 25px;
 }
-.section-title-pink:before { 
+
+.section-title-pink:before {
     content: "";
     display: block;
     position: absolute;
@@ -261,36 +318,48 @@ a {
     width: 225px;
     height: 40px;
     z-index: -1;
-    background: rgb(85, 85, 85);   
+    background: rgb(85, 85, 85);
 }
-.lang-cirkle-black { /*делаем кружки для языков*/
+
+.lang-cirkle-black {
+    /*делаем кружки для языков*/
     display: inline-block;
-    width: 10px; height: 10px; 
-    background: rgb(85, 85, 85); 
-    border-radius: 50%; 
+    width: 10px;
+    height: 10px;
+    background: rgb(85, 85, 85);
+    border-radius: 50%;
 }
+
 .lang-cirkle-white {
     display: inline-block;
-    width: 10px; height: 10px; 
-    background: rgb(255, 255, 255); 
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 255, 255);
     border-radius: 50%;
-} 
-.lang-list { /*делаем flex для блока круги+языки*/
+}
+
+.lang-list {
+    /*делаем flex для блока круги+языки*/
     display: flex;
     flex-direction: row;
     gap: 15px;
     padding: 10px 0;
 }
-.lang-item { /*делаем flex для блока языки*/
+
+.lang-item {
+    /*делаем flex для блока языки*/
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.cirkles { /*делаем flex для блока круги*/
+
+.cirkles {
+    /*делаем flex для блока круги*/
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 footer {
     height: 50px;
     background-color: rgb(250, 218, 221);
@@ -299,8 +368,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 0;    
+    line-height: 0;
 }
+
 .copyright {
     display: flex;
     gap: 5px;
@@ -309,6 +379,7 @@ footer {
     align-items: center;
     vertical-align: middle;
 }
+
 .s13 {
     line-height: 50px;
     text-decoration: none;
@@ -317,17 +388,23 @@ footer {
     transition: .5s;
     position: relative;
 }
-.s13:hover { /*смена цвета при наведенеии*/
+
+.s13:hover {
+    /*смена цвета при наведенеии*/
     color: #ffffff;
 }
-.rss{
-    transition: .5s; 
+
+.rss {
+    transition: .5s;
     filter: invert(0%);
 }
+
 .rss:hover {
     filter: invert(100%);
 }
-.list-education { /*добавляем gap в education*/
+
+.list-education {
+    /*добавляем gap в education*/
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -337,20 +414,25 @@ footer {
     main {
         flex-direction: column;
     }
+
     .container-aside {
         width: 100%;
         min-width: 100px;
     }
+
     .nav {
         display: none;
     }
+
     header {
         height: 20px;
     }
+
     .section-title-pink.top {
         bottom: 25px
     }
+
     .skills-both {
         gap: 15vw;
-} 
+    }
 }
