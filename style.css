@@ -22,6 +22,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#htmlViewer {
+    width: 100%;
+}
+
 body {
     font-family: 'JetbrainsMono';
     min-height: 100vh;
