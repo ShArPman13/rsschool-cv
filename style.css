@@ -258,6 +258,7 @@ strong {
 
 .projects {
     display: flex;
+    flex-direction: column;
     padding-bottom: 10px;
     gap: 10px;
 }
@@ -266,7 +267,12 @@ a {
     text-decoration: none;
 }
 
-.projects:before {
+.projects__item {
+    display: flex;
+    gap: 5px;
+}
+
+.projects__item:before {
     content: "\00BB ";
     /* Добавляем перед элементом списка символ в юникоде */
 }
