@@ -23,6 +23,13 @@ html {
 }
 
 .code {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+}
+
+.pre {
     width: 100%;
 }
 
@@ -235,7 +242,7 @@ main {
 .wrapper {
     /* делаем максимальную ширину обертки с контентом*/
     max-width: 1440px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .hobbies {

@@ -180,16 +180,14 @@
                     </div>
                     <div class="code">
 
-                        <pre>
-                            <code id="htmlViewer" style="color:rgb(68, 68, 68); font-weight:400;background-color:rgb(240, 240, 240);background:rgb(240, 240, 240);display:block;padding: .5em;"><span style="color:rgb(68, 68, 68); font-weight:400;"><span style="color:rgb(68, 68, 68); font-weight:700;">function</span> <span style="color:rgb(136, 0, 0); font-weight:700;">duplicateEncode</span>(<span style="color:rgb(68, 68, 68); font-weight:400;">word</span>)</span> {
+                        <pre class="pre"
+                            style="width: 100%; font-weight:400;background-color:rgb(240, 240, 240);background:rgb(240, 240, 240);display:block;padding: .5em;"><span style="color:rgb(68, 68, 68); font-weight:400;"><span style="color:rgb(68, 68, 68); font-weight:700;">function</span> <span style="color:rgb(136, 0, 0); font-weight:700;">duplicateEncode</span>(<span style="color:rgb(68, 68, 68); font-weight:400;">word</span>)</span> {
     <span style="color:rgb(68, 68, 68); font-weight:700;">const</span> str = word.toLowerCase().split(<span style="color:rgb(136, 0, 0); font-weight:400;">&#x27;&#x27;</span>);
     <span style="color:rgb(68, 68, 68); font-weight:700;">let</span> res =<span style="color:rgb(136, 0, 0); font-weight:400;">&#x27;&#x27;</span>;
     <span style="color:rgb(68, 68, 68); font-weight:700;">let</span> resArr = str.map(<span style="color:rgb(68, 68, 68); font-weight:400;">(<span style="color:rgb(68, 68, 68); font-weight:400;">item, index, array</span>) =&gt;</span> {
     <span style="color:rgb(68, 68, 68); font-weight:700;">let</span> tempArr = array.filter(<span style="color:rgb(68, 68, 68); font-weight:400;">(<span style="color:rgb(68, 68, 68); font-weight:400;">elem, i</span>) =&gt;</span> i != index);
     tempArr.includes(item) ? res = res + <span style="color:rgb(136, 0, 0); font-weight:400;">&#x27;)&#x27;</span>: res = res + <span style="color:rgb(136, 0, 0); font-weight:400;">&#x27;(&#x27;</span>
-    })
-    <span style="color:rgb(68, 68, 68); font-weight:700;">return</span> res;
-}</code></pre>
+    })<span style="color:rgb(68, 68, 68); font-weight:700;">return</span> res;}</pre>
                     </div>
                 </section>
                 <section class="section" id="projects">
