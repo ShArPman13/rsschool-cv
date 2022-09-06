@@ -22,16 +22,16 @@ html {
     scroll-behavior: smooth;
 }
 
-.code {
+/* .code {
     overflow: auto;
     width: 100%;
     height: auto;
     background-color: rgb(240, 240, 240);
-}
+} */
 
-.pre {
+/* .pre {
     width: 100%;
-}
+} */
 
 body {
     font-family: 'JetbrainsMono';
@@ -437,6 +437,15 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.code-area {
+    overflow: auto;
+    width: 100%;
+}
+
+.code__js {
+    overflow: auto;
 }
 
 @media (max-width: 680px) {

@@ -179,7 +179,18 @@
                         <h2 class="title-on-white">Code examples</h2>
                     </div>
                     <!-- HTML generated using hilite.me -->
-
+                    <div class="code-area">
+                        <pre class="code__js" style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;
+                        margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">function</span> duplicateEncode(word) {
+   <span style="color: #008800; font-weight: bold">const</span> str <span style="color: #333333">=</span> word.toLowerCase().split(<span style="background-color: #fff0f0">&#39;&#39;</span>);
+   <span style="color: #008800; font-weight: bold">let</span> res <span style="color: #333333">=</span><span style="background-color: #fff0f0">&#39;&#39;</span>;
+   <span style="color: #008800; font-weight: bold">let</span> resArr <span style="color: #333333">=</span> str.map((item, index, array) <span style="color: #333333">=&gt;</span> {
+     <span style="color: #008800; font-weight: bold">let</span> tempArr <span style="color: #333333">=</span> array.filter((elem, i) <span style="color: #333333">=&gt;</span> i <span style="color: #333333">!=</span> index);
+     tempArr.includes(item) <span style="color: #333333">?</span> res <span style="color: #333333">=</span> res <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;)&#39;</span><span style="color: #333333">:</span> res <span style="color: #333333">=</span> res <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;(&#39;</span>
+   })
+   <span style="color: #008800; font-weight: bold">return</span> res;}
+</pre>
+                    </div>
                 </section>
                 <section class="section" id="projects">
                     <div class="section-title">
