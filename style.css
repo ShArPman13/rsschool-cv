@@ -242,7 +242,7 @@ main {
 .wrapper {
     /* делаем максимальную ширину обертки с контентом*/
     max-width: 1440px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .hobbies {
@@ -295,6 +295,18 @@ a {
 .title-on-white {
     display: block;
     position: relative;
+}
+
+.li__image {
+    width: 12px;
+}
+
+.title__img {
+    width: 132px;
+}
+
+.rss__img {
+    height: 32px;
 }
 
 .title-on-white:after {
