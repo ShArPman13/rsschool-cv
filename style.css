@@ -448,7 +448,7 @@ footer {
     overflow: auto;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 780px) {
     main {
         flex-direction: column;
     }
@@ -472,5 +472,29 @@ footer {
 
     .skills-both {
         gap: 15vw;
+    }
+}
+
+@media (max-width: 870px) {
+    .code-area {
+        width: 400px;
+    }
+}
+
+@media (max-width: 780px) {
+    .code-area {
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    .code-area {
+        width: 330px;
+    }
+}
+
+@media (max-width: 470px) {
+    .code-area {
+        width: 270px;
     }
 }

@@ -153,7 +153,8 @@
                             <p><strong>HARD</strong></p>
                             <ul>
                                 <li>JavaScript</li>
-                                <li>CSS</li>
+                                <li>Webpack</li>
+                                <li>CSS/SASS</li>
                                 <li>HTML</li>
                                 <li>Git, Github</li>
                                 <li>Corel Draw</li>
@@ -181,15 +182,20 @@
                     <!-- HTML generated using hilite.me -->
                     <div class="code-area">
                         <pre class="code__js" style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;
-                        margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">function</span> duplicateEncode(word) {
-   <span style="color: #008800; font-weight: bold">const</span> str <span style="color: #333333">=</span> word.toLowerCase().split(<span style="background-color: #fff0f0">&#39;&#39;</span>);
-   <span style="color: #008800; font-weight: bold">let</span> res <span style="color: #333333">=</span><span style="background-color: #fff0f0">&#39;&#39;</span>;
-   <span style="color: #008800; font-weight: bold">let</span> resArr <span style="color: #333333">=</span> str.map((item, index, array) <span style="color: #333333">=&gt;</span> {
-     <span style="color: #008800; font-weight: bold">let</span> tempArr <span style="color: #333333">=</span> array.filter((elem, i) <span style="color: #333333">=&gt;</span> i <span style="color: #333333">!=</span> index);
-     tempArr.includes(item) <span style="color: #333333">?</span> res <span style="color: #333333">=</span> res <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;)&#39;</span><span style="color: #333333">:</span> res <span style="color: #333333">=</span> res <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&#39;(&#39;</span>
-   })
-   <span style="color: #008800; font-weight: bold">return</span> res;}
-</pre>
+margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">function</span> qSort<span style="color: #009900;">&#40;</span>array<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+  let length <span style="color: #339933;">=</span> array.<span style="color: #660066;">length</span> <span style="color: #339933;">-</span> <span style="color: #CC0000;">1</span>
+  <span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>array.<span style="color: #660066;">length</span> <span style="color: #339933;">&lt;=</span> <span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    <span style="color: #000066; font-weight: bold;">return</span> array
+  <span style="color: #009900;">&#125;</span>
+  let pivot <span style="color: #339933;">=</span> array<span style="color: #009900;">&#91;</span>length<span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span>
+  let low <span style="color: #339933;">=</span> <span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span>
+  let more <span style="color: #339933;">=</span> <span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span>
+  &nbsp;
+  <span style="color: #000066; font-weight: bold;">for</span> <span style="color: #009900;">&#40;</span>let i <span style="color: #339933;">=</span> <span style="color: #CC0000;">0</span><span style="color: #339933;">;</span> i <span style="color: #339933;">&lt;</span> length<span style="color: #339933;">;</span> i <span style="color: #339933;">+=</span> <span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    array<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span> <span style="color: #339933;">&lt;</span> pivot <span style="color: #339933;">?</span> low.<span style="color: #660066;">push</span><span style="color: #009900;">&#40;</span>array<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">:</span> more.<span style="color: #660066;">push</span><span style="color: #009900;">&#40;</span>array<span style="color: #009900;">&#91;</span>i<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+  <span style="color: #009900;">&#125;</span>
+  <span style="color: #000066; font-weight: bold;">return</span> <span style="color: #009900;">&#91;</span>...<span style="color: #660066;">qSort</span><span style="color: #009900;">&#40;</span>low<span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> pivot<span style="color: #339933;">,</span> ...<span style="color: #660066;">qSort</span><span style="color: #009900;">&#40;</span>more<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span></pre>
                     </div>
                 </section>
                 <section class="section" id="projects">
